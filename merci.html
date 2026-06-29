@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Merci — votre demande est bien reçue | Damac Énergie</title>
+<meta name="robots" content="noindex">
+
+<!-- ===== Consent Mode v2 (mêmes réglages que les autres pages) ===== -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent','default',{
+    ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied',
+    analytics_storage:'denied', wait_for_update:500
+  });
+  // Si l'utilisateur avait déjà accepté sur la page précédente, on rétablit le consentement :
+  try{ if(localStorage.getItem('damac_consent')==='granted'){
+    gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});
+  }}catch(e){}
+  gtag('js', new Date());
+  gtag('config','AW-18269579591');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18269579591"></script>
+
+<!-- Microsoft Clarity : refus par défaut, rétabli si l'utilisateur avait accepté sur la page précédente -->
+<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "3j9kkblzoj");
+  clarity('consentv2', { ad_Storage:'denied', analytics_Storage:'denied' });
+  try{ if(localStorage.getItem('damac_consent')==='granted'){
+    clarity('consentv2', { ad_Storage:'granted', analytics_Storage:'granted' });
+  }}catch(e){}
+</script>
+
+<!-- ============================================================
+     >>> BALISE DE CONVERSION « Formulaire devis » <<<
+     Remplace AW-CONVERSION_ID/LABEL par l'extrait fourni par Google Ads
+     (Objectifs > Conversions > ton action > Configurer la balise).
+     ============================================================ -->
+<script>
+  gtag('event','conversion',{
+    'send_to':'AW-18269579591/c2TaCNXNvcUcEMfSzodE',
+    'value':1.0,
+    'currency':'EUR'
+  });
+</script>
+
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <div class="logo">Damac <span>Énergie</span></div>
+  <a class="tel" href="tel:+3271556359">071 55 63 59</a>
+</div></header>
+
+<section class="hero" style="text-align:center"><div class="wrap">
+  <div style="max-width:640px;margin:0 auto">
+    <div style="font-size:60px;line-height:1">✅</div>
+    <h1>Merci, votre demande est bien reçue !</h1>
+    <p class="lead">Un conseiller Damac Énergie vous rappelle sous 48h. Pour une réponse immédiate, appelez-nous.</p>
+    <a class="btn" href="tel:+3271556359">📞 Appeler le 071 55 63 59</a>
+    <p style="margin-top:22px"><a href="index.html" style="color:#dff3e8">← Retour à l'accueil</a></p>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div>Damac Énergie SRL — Groeneweg 17, 9300 Alost · TVA BE 1009.878.183 · 071 55 63 59</div>
+  <div><a href="politique-confidentialite.html">Politique de confidentialité</a></div>
+</div></footer>
+
+</body>
+</html>
